@@ -82,7 +82,7 @@ async def status_message_f(client, message):
         #LOGGER.info(msg)
 
         if msg == "":
-            msg = "🤷‍♂️ No Active, Queued or Paused TORRENTs"
+            msg = "No active downloads🚧"
 
     currentTime = time.strftime("%H:%M:%S", time.gmtime(time.time() - BOT_START_TIME))   #ctrl-c & ctrl-v 😑
     total, used, free = shutil.disk_usage(".")
@@ -90,10 +90,16 @@ async def status_message_f(client, message):
     used = humanbytes(used)
     free = humanbytes(free)
 
-    ms_g = f"<b>Bot Uptime</b>: <code>{currentTime}</code>\n" \
-        f"<b>Total disk space</b>: <code>{total}</code>\n" \
-        f"<b>Used</b>: <code>{used}</code>\n" \
-        f"<b>Free</b>: <code>{free}</code>\n"
+    ms_g = f'<b>⦿🄶🄰🅄🅃🄰🄼🅂 🄼🄸🅁🅁🄾🅁 🄽 🄻🄴🄴🄲🄷⦿</b>\n' \
+        f'<b>━━━━━━━━━━━━━━━━━</b>\n' \
+        f"<b>⦿Bot Uptime⏱</b>: <code>{currentTime}</code>\n" \
+        f'<b>━━━━━━━━━━━━━━━━━</b>\n' \
+        f"<b>⦿Total disk space🗃️</b>: <code>{total}</code>\n" \
+        f"<b>⦿Used🔒</b>: <code>{used}</code>\n" \
+        f"<b>⦿Free🔓</b>: <code>{free}</code>\n"
+        f'<b>━━━━━━━━━━━━━━━━━</b>\n' \
+        f'<b>⦿Made In India\t🇮🇳\t</b>\n' \
+        f'<b>⦿Owner:Gautam1834</b>'
     #LOGGER.info(ms_g)
 
     msg = ms_g + "\n" + msg
