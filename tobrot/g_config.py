@@ -16,9 +16,9 @@ class Config(Config):
     RCLONE_CONFIG = """
 [DRIVE]
 type = drive
-client_id = 28dslkgjsdl-fill-your-details-apps.googleusercontent.com
-client_secret = 6Tib48-fill-your-details-KuXXDX-eWgnRBYc
+client_id = 526266162305-i9nee0dfb05ljuhe4nupesjq8ldc3o1e.apps.googleusercontent.com
+client_secret = TVN_5hw-6PqTEO6EFaUrSi8e
 scope = drive
-root_folder_id =
-token = {"access_token":"ya29.a0AfH6SMBYJzZ3lSIxJTwzOFRE_Nev20-mGnfKyHzPycQGEUOBVxL1Z7ujHTi2L1nsoAtgglu5sQesBqdqFRGMxGnmYauPY_8YMD2GsodVl7TTW4jLgVu7sugtxJWJm7R8h6AHdeZ12_LgQpzuXc0A4e7DgUB8c7t8HDVX5_Y1s3g","token_type":"Bearer","refresh_token":"1//0glDR2jjkwytPCgYIARAAGBASNwF-L9Ir9_4SA_yvXll9JpCkKFijDctynIE82z7YGzN5xv0jBc763zBHfsviJdYPPAjuiYXHnWk","expiry":"2020-12-26T18:22:04.657595603Z"}
+root_folder_id = 1aGOksKRmuX43Lsvmu3wqkeUy86SCq_mS
+token = {"access_token":"ya29.a0AfH6SMBOrTgYoEPlUMOdttNLDRTVNbk_kM9hzCtbk4GIT1-jnTIC6sPudhR42daUPvST_K9pqNG2lRumD-WxSW2d8fFYifg9vaiWz17HsN8adbR8CnGuqB8tF9wI_HZ3NlrgC0quOmAJ8tlpVLmbsKUVv_81CyxCFGkACrrC3a4","token_type":"Bearer","refresh_token":"1//0gzXZO4vNFmS_CgYIARAAGBASNwF-L9IrV2B_tB4OjVYubyt5qaF7RZejhjoh6xG8Es1lGBZ4Fv8ZjPbqWWPpnh4zmLF6pLznYSI","expiry":"2021-02-13T07:20:37.03105952Z"}
 team_drive = 0ACORhP6TI89FUk9PVA"""
