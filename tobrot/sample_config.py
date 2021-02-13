@@ -56,7 +56,7 @@ class Config(object):
     TELEGRAM_LEECH_COMMAND_G = os.environ.get("TELEGRAM_LEECH_COMMAND_G", "tleech@gautamleechbot")
     CANCEL_COMMAND_G = os.environ.get("CANCEL_COMMAND_G", "cancel@gautamleechbot")
     GET_SIZE_G = os.environ.get("GET_SIZE_G", "getsize@gautamleechbot")
-    STATUS_COMMAND = os.environ.get("STATUS_COMMAND", "status@gautamleechbot@gautamleechbot")
+    STATUS_COMMAND = os.environ.get("STATUS_COMMAND", "status")
     SAVE_THUMBNAIL = os.environ.get("SAVE_THUMBNAIL", "savethumbnail@gautamleechbot")
     CLEAR_THUMBNAIL = os.environ.get("CLEAR_THUMBNAIL", "clearthumbnail@gautamleechbot")
     UPLOAD_AS_DOC = os.environ.get("UPLOAD_AS_DOC", "False")
